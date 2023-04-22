@@ -22,7 +22,10 @@ def category_expenses(file_name):
 
 
 def main():
-    ...
+    res = total_expenses("test.txt")
+    print(res)
+    res = category_expenses("test.txt")
+    print(res)
 
 
 if __name__ == "__main__":
